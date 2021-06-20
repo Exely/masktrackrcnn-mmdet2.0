@@ -29,7 +29,6 @@ python ./scripts/gen_train_val_json_mp.py
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 PORT=${PORT:-29500}
 
-#cd ../
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=$PORT tools/train.py \
 configs/masktrackrcnn_ytvos/masktrackrcnn_r50_fpn_2x.py \
 --work-dir work_dirs/masktrackrcnn_r50_fpn_2x_4 --no-validate --launcher pytorch
@@ -44,6 +43,7 @@ python scripts/gen_test_json.py
 python tools/test_video.py configs/masktrackrcnn_ytvos/masktrackrcnn_r50_fpn_2x.py \
 work_dirs/latest.pth \
 --out ../user_data/pred/result.pkl --format-only
+```
 The predicted results will be generated into a json file named `../user_data/pred/result.pkl.json`, you can convert the json results to segmentation masks by runing,
 ```sh
 python scripts/json2mask_v2.py
