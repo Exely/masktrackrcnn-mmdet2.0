@@ -1,5 +1,5 @@
 # masktrackrcnn-mmdet2.0
-This is the **UNOFFICIAL** implement of the MaskTrackRCNN [[paper](https://arxiv.org/abs/1905.04804)] for video instance segmentation. We adapt the method with additional post-processing for Tianchi competetion [[link](https://tianchi.aliyun.com/competition/entrance/531873/introduction)], which achieves a score of **J&F-Mean 0.660** and ranks **15 / 2904** in the competetion. The code is mostly built based on [MaskTrackRCNN](https://github.com/youtubevos/MaskTrackRCNN) and re-implement via [mmdetection 2.11.0](https://github.com/open-mmlab/mmdetection/tree/v2.11.0). 
+This is the **UNOFFICIAL** implement of the MaskTrackRCNN [[paper](https://arxiv.org/abs/1905.04804)] for video instance segmentation. We adapt the method with additional post-processing for Tianchi competetion [[link](https://tianchi.aliyun.com/competition/entrance/531873/introduction)], which achieves a score of **J&F-Mean 0.660** and ranks **15 / 2904** in the competetion. The code is mostly built based on [MaskTrackRCNN](https://github.com/youtubevos/MaskTrackRCNN) and re-implemented via [mmdetection 2.11.0](https://github.com/open-mmlab/mmdetection/tree/v2.11.0). 
 
 ## Setup
 We run the code successfully using pytoch>=1.7.0 and cuda 11.0.   We are not sure if the code works in other environments. 
