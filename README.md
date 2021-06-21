@@ -48,6 +48,6 @@ The predicted results will be generated into a json file named `../user_data/pre
 ```sh
 python scripts/json2mask_v2.py
 ```
-The pretraind model is coming soon...
+The pretrained model is coming soon...
 ## Acknowledgement
 The authors are [LYxjtu](https://github.com/LYxjtu) and [Exely](https://github.com/Exely). If you have any questions about this repo, please contact us or create an issue.
