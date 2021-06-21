@@ -4,7 +4,7 @@ This is the **UNOFFICIAL** implement of the MaskTrackRCNN [[paper](https://arxiv
 ## Setup
 We run the code successfully using pytoch>=1.7.0 and cuda 11.0.   We are not sure if the code works in other environments. 
 
-## Installation by anaconda
+## Installation
 ```sh
 conda create -n MaskTrackRCNN -y
 conda activate MaskTrackRCNN
