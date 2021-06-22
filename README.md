@@ -34,7 +34,7 @@ configs/masktrackrcnn_ytvos/masktrackrcnn_r50_fpn_2x.py \
 --work-dir work_dirs/masktrackrcnn_r50_fpn_2x_4 --no-validate --launcher pytorch
 ```
 ## Evaluation
-1. precessing the datset.
+1. prepare the datset.
 ```sh
 python scripts/gen_test_json.py
 ```
