@@ -33,6 +33,7 @@ PORT=${PORT:-29500}
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=$PORT tools/train.py \
 configs/masktrackrcnn_ytvos/masktrackrcnn_r50_fpn_2x.py \
 --work-dir work_dirs/masktrackrcnn_r50_fpn_2x_4 --no-validate --launcher pytorch
+We lost the pretrained models..
 ```
 ## Evaluation
 1. prepare the datset.
