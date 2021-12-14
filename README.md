@@ -35,7 +35,6 @@ configs/masktrackrcnn_ytvos/masktrackrcnn_r50_fpn_2x.py \
 --work-dir work_dirs/masktrackrcnn_r50_fpn_2x_4 --no-validate --launcher pytorch.  
 ```
 We lost the pretrained models..
-```
 ## Evaluation
 1. prepare the datset.
 ```sh
